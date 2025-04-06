@@ -1,0 +1,35 @@
+{
+  "name": "@mini_apps/utilities",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": ">=18.3.1",
+    "react-dom": ">=18.3.1"
+  },
+  "dependencies": {
+    "@farcaster/frame-sdk": "^0.0.32",
+    "react": ">=18.3.1",
+    "react-dom": ">=18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@rollup/plugin-url": "^8.0.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "rollup": "^4.18.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5.4.5"
+  }
+}

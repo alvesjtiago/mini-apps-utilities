@@ -1,7 +1,7 @@
 {
   "name": "@mini_apps/utilities",
   "description": "A collection of mini apps utilities for devs.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "homepage": "https://github.com/alvesjtiago/mini-apps-utilities#readme",
   "main": "dist/index.js",

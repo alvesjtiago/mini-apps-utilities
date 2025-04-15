@@ -39,6 +39,27 @@ function App() {
 
 </details>
 
+<details>
+<summary>
+<b>FrameInit</b>
+</summary>
+
+#### Description
+
+FrameInit component to emit frame SDK ready event. Minimal with only React and the frame SDK as dependencies.
+
+#### Usage
+
+```tsx
+import { FrameInit } from '@mini_apps/utilities'
+
+function App() {
+  return <FrameInit />
+}
+```
+
+</details>
+
 ## Contributors
 
 - [Steve](https://warpcast.com/stevedylandev.eth)
